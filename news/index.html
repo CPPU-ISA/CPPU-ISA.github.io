@@ -78,7 +78,7 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="https://CPPU-ISA.github.io/tags/ctf/"/>
+    <link rel="canonical" href="https://CPPU-ISA.github.io/news/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
@@ -87,12 +87,14 @@
         
         <meta name="description" content="CPPU-ISA, also known as CPPUISA, cppu-isa, and seeusec, is the official team website for members, glory, writeups, and cybersecurity projects.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="CPPU-ISA">
-<meta property="og:url" content="https://cppu-isa.github.io/tags/CTF/index.html">
+<meta property="og:title" content="News">
+<meta property="og:url" content="https://cppu-isa.github.io/news/index.html">
 <meta property="og:site_name" content="CPPU-ISA">
 <meta property="og:description" content="CPPU-ISA, also known as CPPUISA, cppu-isa, and seeusec, is the official team website for members, glory, writeups, and cybersecurity projects.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cppu-isa.github.io/images/logo.jpg">
+<meta property="article:published_time" content="2026-06-29T14:10:00.000Z">
+<meta property="article:modified_time" content="2026-06-29T14:12:43.760Z">
 <meta property="article:author" content="CPPU-ISA">
 <meta property="article:tag" content="CPPU">
 <meta property="article:tag" content="CPPU-ISA">
@@ -117,7 +119,7 @@
     
     <title>
         
-            标签: CTF | CPPU-ISA
+            News | CPPU-ISA
         
     </title>
 
@@ -270,7 +272,7 @@
 
                             <li class="navbar-item">
                                 <!-- Menu -->
-                                <a class=""
+                                <a class="active"
                                    href="/news/"
                                         >
                                     <i class="fa-regular fa-newspaper fa-fw"></i>
@@ -398,7 +400,7 @@
 
                     <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
                         
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
                            href="/news/"
                         >
                             <span>
@@ -489,43 +491,145 @@
 	
 
 	
-	<div class="tag-name">
-    <i class="fa-solid fa-tag"></i>&nbsp;CTF
-</div>
-<div class="tag-post-list">
-    
-<div class="archive-list-container">
-    
-        <section class="archive-item mb-spacing-unit last:mb-0">
-            <div class="archive-item-header flex flex-row items-center mb-2">
-                <span class="archive-year font-semibold text-3xl mr-2">2026</span>
-                <span class="archive-year-post-count text-xs md:text-sm font-bold rounded-small bg-third-background-color py-[2px] px-[10px] border border-border-color">1</span>
-            </div>
-            
-            <ul class="article-list pl-0 md:pl-8 text-lg leading-[1.5]">
-                
-                    
-                    
-                         <!-- Close the previous LI if not the first item -->
-                        <li class="article-item space-y-2 px-6 pt-10 pb-2 text-xl relative border-l-2 border-border-color" date-is='06-29'>
-                    
-                    <a href="/2026/06/29/hello-world/" class="block w-fit">
-                        <span class="article-title my-0.5 text-2xl">CPPU-ISA Official Introduction</span>
-                    </a>
-                    
-                
-                </li> <!-- Ensure the last item is properly closed -->
-            </ul>
-        </section>
-    
-</div>
-</div>
-	
 
 	<div class="page-template-content markdown-body">
 		
-
+		<h1>News</h1>
 		
+
+		<style>
+  .news-layout {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .news-section {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--border-color, #dee2e6);
+    border-radius: 24px;
+    padding: 1.6rem;
+    background:
+      radial-gradient(circle at top right, rgba(0, 123, 255, 0.14), transparent 28%),
+      linear-gradient(180deg, rgba(220, 53, 69, 0.06), rgba(255, 255, 255, 0.02)),
+      var(--background-color-transparent, rgba(248, 249, 250, 0.9));
+    box-shadow: 0 18px 50px rgba(16, 24, 40, 0.08);
+  }
+
+  .news-section::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 5px;
+    background: linear-gradient(180deg, #007bff, #dc3545);
+  }
+
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .news-card {
+    display: block;
+    padding: 1.1rem;
+    border-radius: 18px;
+    border: 1px solid rgba(108, 117, 125, 0.16);
+    background: rgba(255, 255, 255, 0.72);
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  }
+
+  .dark .news-card {
+    background: rgba(18, 18, 18, 0.72);
+  }
+
+  .news-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(0, 123, 255, 0.35);
+    box-shadow: 0 16px 32px rgba(16, 24, 40, 0.12);
+  }
+
+  .news-card h3 {
+    margin: 0 0 0.45rem;
+    font-size: 1.05rem;
+  }
+
+  .news-card p,
+  .news-section p {
+    margin: 0;
+    color: var(--third-text-color, #6c757d);
+    line-height: 1.8;
+  }
+
+  .news-badge {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    padding: 0.25rem 0.65rem;
+    border-radius: 999px;
+    background: rgba(0, 123, 255, 0.12);
+    color: #007bff;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+</style>
+
+<div class="news-layout">
+  <section class="news-section">
+    <span class="news-badge">News Hub</span>
+    <p>This page collects useful security and CTF-related sites. Later we can expand it into a team-curated feed, add categories, or turn it into a bookmark portal.</p>
+  </section>
+
+  <section class="news-section">
+    <h2>Security News</h2>
+    <div class="news-grid">
+      <a href="https://thehackernews.com/" target="_blank" rel="noopener" class="news-card">
+        <h3>The Hacker News</h3>
+        <p>Daily cybersecurity news, breach updates, malware reports, and vulnerability coverage.</p>
+      </a>
+      <a href="https://www.bleepingcomputer.com/" target="_blank" rel="noopener" class="news-card">
+        <h3>BleepingComputer</h3>
+        <p>Incident coverage, patch news, ransomware reporting, and practical security alerts.</p>
+      </a>
+      <a href="https://www.darkreading.com/" target="_blank" rel="noopener" class="news-card">
+        <h3>Dark Reading</h3>
+        <p>Industry security analysis, enterprise trends, and deeper long-form reporting.</p>
+      </a>
+      <a href="https://krebsonsecurity.com/" target="_blank" rel="noopener" class="news-card">
+        <h3>Krebs on Security</h3>
+        <p>Investigative security journalism and high-signal incident commentary.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="news-section">
+    <h2>CTF And Research</h2>
+    <div class="news-grid">
+      <a href="https://ctftime.org/" target="_blank" rel="noopener" class="news-card">
+        <h3>CTFtime</h3>
+        <p>Competition schedule, rankings, event pages, and team tracking.</p>
+      </a>
+      <a href="https://pwning.net/" target="_blank" rel="noopener" class="news-card">
+        <h3>pwning.net</h3>
+        <p>Security learning resources and classic offensive security references.</p>
+      </a>
+      <a href="https://portswigger.net/research" target="_blank" rel="noopener" class="news-card">
+        <h3>PortSwigger Research</h3>
+        <p>Web security research, exploit techniques, and practical vulnerability writeups.</p>
+      </a>
+      <a href="https://googleprojectzero.blogspot.com/" target="_blank" rel="noopener" class="news-card">
+        <h3>Google Project Zero</h3>
+        <p>High-quality vulnerability research and deep technical analysis.</p>
+      </a>
+    </div>
+  </section>
+</div>
+
 	</div>
 
 	<div class="page-template-comments">
@@ -534,7 +638,7 @@
 </div>
 
 <div class="paginator">
-	<span class="page-number current">1</span>
+	
 </div>
   
 			</div>
