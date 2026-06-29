@@ -3,8 +3,6 @@ title: Glory
 date: 2026-06-29 00:30:00
 ---
 
-# Glory
-
 <style>
   .glory-layout {
     display: grid;

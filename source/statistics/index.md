@@ -3,8 +3,6 @@ title: Members
 date: 2026-06-29 00:00:00
 ---
 
-# Members
-
 <style>
   .member-sections {
     display: grid;
