@@ -33,7 +33,7 @@ date: 2026-06-29 22:10:00
 
   .news-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1rem;
     margin-top: 1rem;
   }
@@ -88,7 +88,7 @@ date: 2026-06-29 22:10:00
 <div class="news-layout">
   <section class="news-section">
     <span class="news-badge">News</span>
-    <p>这里收录 CPPUISA 相关动态、赛事消息与值得关注的公开报道，后续会持续更新。</p>
+    <p>这里收录 CPPUISA 相关动态、赛事消息与公开报道，持续记录社团成长、竞赛成果与阶段性建设进展。</p>
   </section>
 
   <section class="news-section">
@@ -96,7 +96,12 @@ date: 2026-06-29 22:10:00
     <div class="news-grid">
       <a href="https://mp.weixin.qq.com/s/g1jw8yD5JhhpwY8KmT-mrA" target="_blank" rel="noopener" class="news-card">
         <h3>警大 CPPUISA 社团学子赛场亮剑，勇夺 15 个奖项！</h3>
-        <p>微信公众号报道，记录 CPPUISA 社团学子在多项网络安全赛事中的亮眼表现与获奖情况。</p>
+        <p>聚焦 2026 年上半年社团在数据安全、网数智安全、软件系统安全与电子数据取证等赛事中的成绩，累计斩获省部级以上奖项 15 项。</p>
+      </a>
+
+      <a href="https://mp.weixin.qq.com/s/8-nscoI2InGT9Zl-3afrrw" target="_blank" rel="noopener" class="news-card">
+        <h3>2026 CPPUISA 春季总结暨暑期动员</h3>
+        <p>6 月 26 日晚，社团面向 24 级、25 级成员召开春季总结暨暑期动员会，系统回顾春季训练与竞赛成果，明确暑期积分制学习安排，并提前部署 26 级纳新与梯队建设工作。</p>
       </a>
     </div>
   </section>
