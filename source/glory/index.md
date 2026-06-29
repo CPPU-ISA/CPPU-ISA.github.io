@@ -3,57 +3,84 @@ title: Glory
 date: 2026-06-29 00:30:00
 ---
 
-## Our Glory
+<style>
+  .glory-feed {
+    display: grid;
+    gap: 1.1rem;
+    margin-top: 2rem;
+  }
 
-### 警大 CPPUISA 社团学子赛场亮剑，勇夺 15 个奖项
+  .glory-entry {
+    padding: 1.3rem 1.45rem;
+    border: 1px solid var(--border-color, #dee2e6);
+    border-radius: 20px;
+    background:
+      radial-gradient(circle at top right, rgba(220, 53, 69, 0.12), transparent 28%),
+      linear-gradient(180deg, rgba(0, 123, 255, 0.05), rgba(255, 255, 255, 0.02)),
+      var(--background-color-transparent, rgba(248, 249, 250, 0.92));
+    box-shadow: 0 16px 40px rgba(16, 24, 40, 0.08);
+  }
 
-2026 年上半年
+  .dark .glory-entry {
+    background: rgba(18, 18, 18, 0.78);
+  }
 
-2026 年上半年，CPPUISA 社团在多项省部级以上网络安全赛事中累计斩获 15 个奖项，覆盖数据安全、网数智安全、软件系统安全与电子数据取证等多个方向。
+  .glory-date {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: #dc3545;
+    font-size: 0.92rem;
+    font-weight: 700;
+  }
 
-[阅读原文](https://mp.weixin.qq.com/s/g1jw8yD5JhhpwY8KmT-mrA)
+  .glory-title {
+    margin: 0 0 0.45rem;
+    font-size: 1.08rem;
+    line-height: 1.6;
+    color: var(--first-text-color, #212529);
+  }
 
-### 第三届“数信杯”数据安全大赛 AI 安全团队综合赛（区域赛金奖、总决赛金奖）
+  .glory-result {
+    margin: 0;
+    color: var(--third-text-color, #6c757d);
+    line-height: 1.8;
+  }
+</style>
 
-2026 年 3 月
+<div class="glory-feed">
+  <div class="glory-entry">
+    <div class="glory-date">2026-03</div>
+    <p class="glory-title">第三届“数信杯”数据安全大赛 AI 安全团队综合赛</p>
+    <p class="glory-result">区域赛金奖 1 项，总决赛金奖 1 项。</p>
+  </div>
 
-“数信杯”是数据安全领域的重要赛事，紧密贴合《中华人民共和国数据安全法》与行业实战需求。本届 AI 安全团队综合赛聚焦 AI 模型数据泄露防御等前沿议题，重点考验真实业务场景下的安全合规设计与应急响应能力。CPPUISA 社团成员在区域赛与总决赛双线告捷，一举包揽双金奖。
+  <div class="glory-entry">
+    <div class="glory-date">2026-04</div>
+    <p class="glory-title">第三届“长城杯”网数智安全大赛（防护赛）总决赛</p>
+    <p class="glory-result">二等奖 1 项。</p>
+  </div>
 
-### 第三届“长城杯”网数智安全大赛（防护赛）总决赛（二等奖）
+  <div class="glory-entry">
+    <div class="glory-date">2026-05</div>
+    <p class="glory-title">第九届中国高校智能机器人创意大赛软件系统安全赛</p>
+    <p class="glory-result">总决赛一等奖 2 项。</p>
+  </div>
 
-2026 年 4 月
+  <div class="glory-entry">
+    <div class="glory-date">2026-05</div>
+    <p class="glory-title">第六届全国网络空间取证大赛（决赛）</p>
+    <p class="glory-result">一等奖 1 项。</p>
+  </div>
 
-“长城杯”网数智安全大赛（防护赛）是国内信息安全领域具有代表性的高水平赛事，涵盖 AWDP 攻防对抗、实景渗透与 AI 安全防护等模块。区域半决赛中，SeeUSec 战队在上午的 AWDP 赛道中斩获第一名，直接锁定晋级资格；总决赛中，战队位列全国第 12 名，获得二等奖。
+  <div class="glory-entry">
+    <div class="glory-date">2026-06</div>
+    <p class="glory-title">第四届“盘古石杯”国际电子数据取证大赛</p>
+    <p class="glory-result">二等奖 2 项。</p>
+  </div>
 
-### 第九届中国高校智能机器人创意大赛软件系统安全赛（总决赛一等奖 2 项）
-
-2026 年 5 月
-
-该赛事围绕软件供应链漏洞挖掘、二进制逆向、代码审计与智能模型对抗设置实战考题。CPPUISA 社团学子在华北区域赛和全国总决赛中表现出色，最终斩获总决赛一等奖 2 项，充分展现了在软件安全方向上的技术深度与实战能力。
-
-### 第六届全国网络空间取证大赛决赛（一等奖）
-
-2026 年 5 月
-
-全国网络空间取证大赛以电子数据取证为核心，赛题高度还原网络犯罪调查、侵权追踪等真实执法场景，涵盖磁盘镜像分析、内存取证、日志关联溯源与恶意代码逆向等多项关键技能。CPPUISA 社团队员凭借扎实的取证功底与缜密的推理能力，最终荣获一等奖。
-
-### 第四届“盘古石杯”国际电子数据取证大赛（二等奖 2 项）
-
-2026 年 6 月
-
-“盘古石杯”对标国际先进取证标准，融合物联网设备分析、区块链交易溯源等前沿难点，要求参赛队伍在有限时间内完成多类型终端与多时区日志的关联分析。参赛同学凭借对取证工具的熟练掌握和良好的逻辑分析能力，最终斩获二等奖 2 项。
-
-### 奖项总览
-
-2026 年上半年
-
-- 第三届“数信杯”数据安全大赛 AI 安全团队综合赛：区域赛金奖 1 项、总决赛金奖 1 项
-- 第三届“长城杯”网数智安全大赛（防护赛）总决赛：二等奖 1 项
-- 第九届中国高校智能机器人创意大赛软件系统安全赛：总决赛一等奖 2 项
-- 第六届全国网络空间取证大赛决赛：一等奖 1 项
-- 第四届“盘古石杯”国际电子数据取证大赛：二等奖 2 项
-- 新闻报道统计：2026 年上半年累计获得省部级以上奖项 15 项
-
-### 更多荣誉与项目内容持续更新中
-
-CPPUISA 的竞赛成绩、项目成果与社团建设内容会继续补充到本页。
+  <div class="glory-entry">
+    <div class="glory-date">2026 上半年</div>
+    <p class="glory-title">省部级以上奖项汇总</p>
+    <p class="glory-result">累计获得奖项 15 项。</p>
+  </div>
+</div>
