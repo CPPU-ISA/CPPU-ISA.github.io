@@ -1,38 +1,25 @@
 ---
-title: Hello World
+title: CPPU-ISA Official Introduction
+date: 2026-06-29 12:00:00
+tags:
+  - CPPU-ISA
+  - CPPUISA
+  - cppu-isa
+  - seeusec
+  - CTF
+  - cybersecurity
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+CPPU-ISA is the official cybersecurity team website for members, glory, writeups, and project updates.
 
-### Create a new post
+The team can also be searched as `CPPUISA`, `cppu-isa`, and `seeusec`.
 
-``` bash
-$ hexo new "My New Post"
-```
+We focus on CTF, security research, practical training, and collaborative project building.
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+Current site sections include:
 
-### Run server
+- `Members`: team roster and grade grouping
+- `Glory`: contest results, milestones, and project showcase
+- `Writeup`: challenge writeups and knowledge records
 
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+This post is kept on the homepage as a clear search-facing introduction so search engines can associate the aliases `CPPU-ISA`, `CPPUISA`, `cppu-isa`, and `seeusec` with the official site.

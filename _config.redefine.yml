@@ -1,6 +1,8 @@
 info:
   title: CPPU-ISA
+  subtitle: CPPUISA / cppu-isa / seeusec
   author: CPPU-ISA
+  url: https://cppu-isa.github.io
 
 defaults:
   favicon: /images/logo.jpg
@@ -8,3 +10,33 @@ defaults:
 
 home_banner:
   title: CPPU-ISA
+  subtitle:
+    text:
+      - CPPU-ISA official cybersecurity team website
+      - Search us as CPPUISA
+      - Search us as cppu-isa
+      - Search us as seeusec
+
+global:
+  open_graph:
+    enable: true
+    image: /images/logo.jpg
+    description: CPPU-ISA, also known as CPPUISA, cppu-isa, and seeusec, is the official team website for members, glory, writeups, and cybersecurity projects.
+
+navbar:
+  links:
+    Home:
+      path: /
+      icon: fa-regular fa-house
+    Members:
+      path: /statistics/
+      icon: fa-regular fa-users
+    Glory:
+      path: /glory/
+      icon: fa-solid fa-trophy
+    Writeup:
+      path: /writeup/
+      icon: fa-regular fa-file-lines
+    GitHub:
+      path: https://github.com/CPPU-ISA
+      icon: fa-brands fa-github

@@ -5,8 +5,18 @@
 # Site
 title: CPPU-ISA
 subtitle: 'If one does not know how to attack, how can one know how to defend.'
-description: 'CPPU-ISA Official Website'
+description: 'CPPU-ISA (also known as CPPUISA, cppu-isa, and seeusec) is the official cybersecurity team website for members, glory, writeups, and project showcases.'
 keywords:
+  - CPPU-ISA
+  - CPPUISA
+  - cppu-isa
+  - seeusec
+  - CPPU
+  - ISA
+  - CTF
+  - cybersecurity
+  - writeup
+  - glory
 author: CPPU-ISA
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -98,6 +108,12 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: redefine
+
+sitemap:
+  path: sitemap.xml
+  rel: true
+  tags: true
+  categories: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
