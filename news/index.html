@@ -94,7 +94,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cppu-isa.github.io/images/logo.jpg">
 <meta property="article:published_time" content="2026-06-29T14:10:00.000Z">
-<meta property="article:modified_time" content="2026-06-29T14:47:29.588Z">
+<meta property="article:modified_time" content="2026-06-29T14:51:53.216Z">
 <meta property="article:author" content="CPPU-ISA">
 <meta property="article:tag" content="CPPU">
 <meta property="article:tag" content="CPPU-ISA">
@@ -498,119 +498,63 @@
 		
 
 		<style>
-  .news-layout {
+  .news-feed {
     display: grid;
-    gap: 1.5rem;
+    gap: 1rem;
     margin-top: 2rem;
   }
 
-  .news-intro,
-  .news-list {
-    position: relative;
-    overflow: hidden;
-    border: 1px solid var(--border-color, #dee2e6);
-    border-radius: 24px;
-    padding: 1.6rem;
-    background:
-      radial-gradient(circle at top right, rgba(0, 123, 255, 0.14), transparent 28%),
-      linear-gradient(180deg, rgba(220, 53, 69, 0.06), rgba(255, 255, 255, 0.02)),
-      var(--background-color-transparent, rgba(248, 249, 250, 0.9));
-    box-shadow: 0 18px 50px rgba(16, 24, 40, 0.08);
-  }
-
-  .news-intro::before,
-  .news-list::before {
-    content: "";
-    position: absolute;
-    inset: 0 auto 0 0;
-    width: 5px;
-    background: linear-gradient(180deg, #007bff, #dc3545);
-  }
-
-  .news-badge {
-    display: inline-block;
-    margin-bottom: 0.75rem;
-    padding: 0.25rem 0.65rem;
-    border-radius: 999px;
-    background: rgba(0, 123, 255, 0.12);
-    color: #007bff;
-    font-size: 0.78rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-  }
-
-  .news-intro p,
-  .news-item p {
-    margin: 0;
-    color: var(--third-text-color, #6c757d);
-    line-height: 1.8;
-  }
-
-  .news-items {
-    display: grid;
-    gap: 1rem;
-    margin-top: 1rem;
-  }
-
-  .news-item {
+  .news-entry {
     display: block;
-    padding: 1.1rem 1.2rem;
-    border-radius: 18px;
-    border: 1px solid rgba(108, 117, 125, 0.16);
-    background: rgba(255, 255, 255, 0.72);
+    padding: 1.25rem 1.4rem;
+    border: 1px solid var(--border-color, #dee2e6);
+    border-radius: 20px;
+    background:
+      radial-gradient(circle at top right, rgba(0, 123, 255, 0.12), transparent 28%),
+      linear-gradient(180deg, rgba(220, 53, 69, 0.05), rgba(255, 255, 255, 0.02)),
+      var(--background-color-transparent, rgba(248, 249, 250, 0.92));
     color: inherit;
     text-decoration: none;
+    box-shadow: 0 16px 40px rgba(16, 24, 40, 0.08);
     transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   }
 
-  .dark .news-item {
-    background: rgba(18, 18, 18, 0.72);
+  .dark .news-entry {
+    background: rgba(18, 18, 18, 0.78);
   }
 
-  .news-item:hover {
+  .news-entry:hover {
     transform: translateY(-4px);
     border-color: rgba(0, 123, 255, 0.35);
-    box-shadow: 0 16px 32px rgba(16, 24, 40, 0.12);
+    box-shadow: 0 18px 36px rgba(16, 24, 40, 0.12);
   }
 
-  .news-item h2 {
-    margin: 0 0 0.5rem;
-    font-size: 1.08rem;
-    line-height: 1.5;
-  }
-
-  .news-meta {
+  .news-date {
     display: inline-block;
-    margin-bottom: 0.55rem;
+    margin-bottom: 0.45rem;
     color: #007bff;
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-size: 0.92rem;
+    font-weight: 700;
+  }
+
+  .news-title {
+    margin: 0;
+    font-size: 1.08rem;
+    line-height: 1.6;
+    color: var(--first-text-color, #212529);
   }
 </style>
 
-<div class="news-layout">
-  <section class="news-intro">
-    <span class="news-badge">News</span>
-    <p>这里按时间收录 CPPUISA 相关动态、赛事消息与公开报道。</p>
-  </section>
+<div class="news-feed">
+  <a class="news-entry" href="https://mp.weixin.qq.com/s/8-nscoI2InGT9Zl-3afrrw" target="_blank" rel="noopener">
+    <div class="news-date">2026-06-26</div>
+    <p class="news-title">2026 CPPUISA 春季总结暨暑期动员</p>
+  </a>
 
-  <section class="news-list">
-    <div class="news-items">
-      <a href="https://mp.weixin.qq.com/s/8-nscoI2InGT9Zl-3afrrw" target="_blank" rel="noopener" class="news-item">
-        <span class="news-meta">2026-06-26</span>
-        <h2>2026 CPPUISA 春季总结暨暑期动员</h2>
-        <p>6 月 26 日晚，社团面向 24 级、25 级成员召开春季总结暨暑期动员会，系统回顾春季训练与竞赛成果，明确暑期积分制学习安排，并提前部署 26 级纳新与梯队建设工作。</p>
-      </a>
-
-<pre><code>  &lt;a href=&quot;https://mp.weixin.qq.com/s/g1jw8yD5JhhpwY8KmT-mrA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; class=&quot;news-item&quot;&gt;
-    &lt;span class=&quot;news-meta&quot;&gt;2026 上半年&lt;/span&gt;
-    &lt;h2&gt;警大 CPPUISA 社团学子赛场亮剑，勇夺 15 个奖项！&lt;/h2&gt;
-    &lt;p&gt;聚焦 2026 年上半年社团在数据安全、网数智安全、软件系统安全与电子数据取证等赛事中的成绩，累计斩获省部级以上奖项 15 项。&lt;/p&gt;
-  &lt;/a&gt;
-&lt;/div&gt;
-</code></pre>
-  </section>
+  <a class="news-entry" href="https://mp.weixin.qq.com/s/g1jw8yD5JhhpwY8KmT-mrA" target="_blank" rel="noopener">
+    <div class="news-date">2026 上半年</div>
+    <p class="news-title">警大 CPPUISA 社团学子赛场亮剑，勇夺 15 个奖项！</p>
+  </a>
 </div>
 
 	</div>
