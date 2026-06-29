@@ -92,6 +92,16 @@ date: 2026-06-29 22:10:00
   </section>
 
   <section class="news-section">
+    <h2>Campus News</h2>
+    <div class="news-grid">
+      <a href="https://mp.weixin.qq.com/s/g1jw8yD5JhhpwY8KmT-mrA" target="_blank" rel="noopener" class="news-card">
+        <h3>警大CPPUISA社团学子赛场亮剑，勇夺15个奖项！</h3>
+        <p>微信公众号报道，记录 CPPUISA 社团学子在赛场上的亮眼表现与获奖情况。</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="news-section">
     <h2>Security News</h2>
     <div class="news-grid">
       <a href="https://thehackernews.com/" target="_blank" rel="noopener" class="news-card">
