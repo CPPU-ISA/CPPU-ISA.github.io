@@ -103,16 +103,16 @@ date: 2026-06-29 00:30:00
 
 <div class="glory-layout">
   <section class="glory-hero">
-    <span class="glory-kicker">Team Showcase</span>
-    <h2 class="glory-title">Competition glory, team milestones, and featured projects.</h2>
-    <p class="glory-desc">This page is reserved for the team achievements section inspired by 0psu3. We can add rankings, awards, event posters, milestone timelines, and project highlights here once you send the exact content.</p>
+    <span class="glory-kicker">Glory</span>
+    <h2 class="glory-title">CPPUISA 竞赛荣誉与项目成果</h2>
+    <p class="glory-desc">这里集中展示社团在网络安全竞赛、电子数据取证、软件安全与项目建设方面的代表性成果，后续有新的比赛成绩和项目内容会继续补充。</p>
   </section>
 
   <section class="glory-section">
     <h2>2026 上半年战绩速览</h2>
     <div class="glory-grid">
       <article class="glory-card">
-        <h3>警大CPPUISA社团学子赛场亮剑，勇夺15个奖项！</h3>
+        <h3>警大 CPPUISA 社团学子赛场亮剑，勇夺 15 个奖项</h3>
         <p>2026 年上半年，CPPUISA 社团在多项省部级以上网络安全赛事中累计斩获 15 个奖项，覆盖数据安全、网数智安全、软件系统安全与电子数据取证等多个方向。</p>
         <p><a href="https://mp.weixin.qq.com/s/g1jw8yD5JhhpwY8KmT-mrA" target="_blank" rel="noopener">阅读原文</a></p>
       </article>
@@ -137,7 +137,7 @@ date: 2026-06-29 00:30:00
       <li>第六届全国网络空间取证大赛（决赛）：一等奖 1 项。</li>
       <li>第四届“盘古石杯”国际电子数据取证大赛：二等奖 2 项。</li>
     </ul>
-    <p class="glory-note">以上为报道中明确列出的重点奖项类别。原文同时说明 2026 年上半年累计获得省部级以上奖项 15 项。</p>
+    <p class="glory-note">以上为新闻报道中明确列出的重点奖项类别。原文同时说明，2026 年上半年累计获得省部级以上奖项 15 项。</p>
   </section>
 
   <section class="glory-section">
@@ -164,32 +164,5 @@ date: 2026-06-29 00:30:00
         <p>对标国际取证标准，覆盖物联网设备分析与区块链交易溯源，最终获得二等奖 2 项。</p>
       </article>
     </div>
-  </section>
-
-  <section class="glory-section">
-    <h2>Planned Blocks</h2>
-    <div class="glory-grid">
-      <article class="glory-card">
-        <h3>Contest Results</h3>
-        <p>CTF placements, scoreboards, award titles, and event names.</p>
-      </article>
-      <article class="glory-card">
-        <h3>Project Highlights</h3>
-        <p>Dedicated space for named projects, demos, tools, and internal platforms.</p>
-      </article>
-      <article class="glory-card">
-        <h3>Team Milestones</h3>
-        <p>Recruitment cycles, training records, and notable team moments.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="glory-section">
-    <h2>Content Queue</h2>
-    <ul class="glory-list">
-      <li>`GLORY` style showcase section is ready.</li>
-      <li>Project entries can be added one by one without changing the page structure.</li>
-      <li>Images, rankings, external links, and markdown writeups can all be embedded here.</li>
-    </ul>
   </section>
 </div>
