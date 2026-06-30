@@ -6,6 +6,7 @@ info:
 
 defaults:
   favicon: /images/logo.jpg
+  logo: /images/logo.jpg
   avatar: /images/logo.jpg
 
 home_banner:

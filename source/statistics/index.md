@@ -178,7 +178,7 @@ date: 2026-06-29 00:00:00
     </div>
     <div class="member-grid">
       <a href="https://jjkk999.github.io/" target="_blank" rel="noopener" class="member-card">
-        <img src="https://jjkk999.github.io/img/jjkk.jpg" alt="jjkk avatar" class="member-avatar">
+        <img src="/images/members/23/jjkk.jpg" alt="jjkk avatar" class="member-avatar">
         <div class="member-info">
           <div class="member-name-row">
             <span class="member-name">jjkk</span>
@@ -189,7 +189,7 @@ date: 2026-06-29 00:00:00
       </a>
 
       <a href="https://www.cnblogs.com/Sevedy" target="_blank" rel="noopener" class="member-card">
-        <img src="https://pic.cnblogs.com/avatar/3357373/20250104101041.png" alt="Sevedy avatar" class="member-avatar">
+        <img src="/images/members/23/sevedy.png" alt="Sevedy avatar" class="member-avatar">
         <div class="member-info">
           <div class="member-name-row">
             <span class="member-name">Sevedy / Sola</span>
@@ -200,7 +200,7 @@ date: 2026-06-29 00:00:00
       </a>
 
       <a href="https://nlqx.github.io/" target="_blank" rel="noopener" class="member-card">
-        <img src="https://nlqx.github.io/images/cover1.jpg" alt="nlqx avatar" class="member-avatar">
+        <img src="/images/members/23/nlqx.jpg" alt="nlqx avatar" class="member-avatar">
         <div class="member-info">
           <div class="member-name-row">
             <span class="member-name">nlqx</span>
@@ -211,7 +211,7 @@ date: 2026-06-29 00:00:00
       </a>
 
       <a href="https://saga131.github.io/" target="_blank" rel="noopener" class="member-card">
-        <img src="https://saga131.github.io/img/head.jpg" alt="saga131 avatar" class="member-avatar">
+        <img src="/images/members/23/saga131.jpg" alt="saga131 avatar" class="member-avatar">
         <div class="member-info">
           <div class="member-name-row">
             <span class="member-name">saga131</span>
@@ -222,7 +222,7 @@ date: 2026-06-29 00:00:00
       </a>
 
       <a href="https://mp.weixin.qq.com/s/FxcgogjwyDJUNlI0NBsZ1g" target="_blank" rel="noopener" class="member-card">
-        <img src="https://pic.cnblogs.com/avatar/3376483/20240117222905.png" alt="Q-Sheep avatar" class="member-avatar">
+        <img src="/images/members/23/qsheep.png" alt="Q-Sheep avatar" class="member-avatar">
         <div class="member-info">
           <div class="member-name-row">
             <span class="member-name">Q-Sheep</span>
@@ -233,7 +233,7 @@ date: 2026-06-29 00:00:00
       </a>
 
       <a href="https://www.cnblogs.com/1ceLAND" target="_blank" rel="noopener" class="member-card">
-        <img src="https://pic.cnblogs.com/avatar/3513656/20250528212217.png" alt="1ceLAND avatar" class="member-avatar">
+        <img src="/images/members/23/1celand.png" alt="1ceLAND avatar" class="member-avatar">
         <div class="member-info">
           <div class="member-name-row">
             <span class="member-name">1ceLAND</span>
