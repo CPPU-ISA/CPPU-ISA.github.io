@@ -44,3 +44,6 @@ navbar:
     GitHub:
       path: https://github.com/CPPU-ISA
       icon: fa-brands fa-github
+
+comment:
+  enable: false
