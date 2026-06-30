@@ -73,6 +73,11 @@ date: 2026-06-29 00:30:00
 <div class="glory-timeline">
   <div class="glory-node">
     <p class="glory-date">2026-06</p>
+    <p class="glory-title">2026 黄河流域公安院校网络空间安全技能挑战赛</p>
+    <p class="glory-result">一等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2026-06</p>
     <p class="glory-title">第四届“盘古石杯”国际电子数据取证大赛</p>
     <p class="glory-result">二等奖 2 项。</p>
   </div>
@@ -97,8 +102,83 @@ date: 2026-06-29 00:30:00
     <p class="glory-result">区域赛金奖 1 项，总决赛金奖 1 项。</p>
   </div>
   <div class="glory-node">
-    <p class="glory-date">2026 上半年</p>
-    <p class="glory-title">省部级以上奖项汇总</p>
-    <p class="glory-result">累计获得奖项 15 项。</p>
+    <p class="glory-date">2025-11</p>
+    <p class="glory-title">“美亚杯”第十一届中国电子数据取证大赛团体赛</p>
+    <p class="glory-result">一等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-11</p>
+    <p class="glory-title">2025 年龙信杯电子数据取证竞赛</p>
+    <p class="glory-result">二等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-10</p>
+    <p class="glory-title">第五届“长城杯”暨京津冀蒙网络安全技能竞赛</p>
+    <p class="glory-result">三等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-10</p>
+    <p class="glory-title">第四届“智器云杯”数据情报分析大赛</p>
+    <p class="glory-result">二等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-10</p>
+    <p class="glory-title">2025 年河北省高校大学生网络安全技能竞赛</p>
+    <p class="glory-result">二等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-10</p>
+    <p class="glory-title">2025 年高校网络安全管理运维赛暨全国网络安全行业职业技能大赛（教育赛道）电子数据取证分析师赛项</p>
+    <p class="glory-result">特等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-10</p>
+    <p class="glory-title">第 22 届全国大学生信息安全与对抗技术竞赛博弈对抗赛</p>
+    <p class="glory-result">二等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-09</p>
+    <p class="glory-title">2025 中华人民共和国第三届职业技能大赛</p>
+    <p class="glory-result">优秀奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-07</p>
+    <p class="glory-title">第九届御网杯网络安全大赛</p>
+    <p class="glory-result">一等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-07</p>
+    <p class="glory-title">第 22 届信息安全与对抗技术竞赛“线上挑战赛”破阵夺旗赛</p>
+    <p class="glory-result">一等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-07</p>
+    <p class="glory-title">第 22 届信息安全与对抗技术竞赛“线上挑战赛”无限擂台赛</p>
+    <p class="glory-result">二等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-06</p>
+    <p class="glory-title">第五届全国网络空间取证大赛</p>
+    <p class="glory-result">三等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-06</p>
+    <p class="glory-title">2025 黄河流域公安院校网络空间安全技能挑战赛</p>
+    <p class="glory-result">一等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-06</p>
+    <p class="glory-title">第三届“盘古石杯”全国电子数据取证大赛晋级赛</p>
+    <p class="glory-result">一等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-05</p>
+    <p class="glory-title">第十六届蓝桥杯全国软件和信息技术专业人才大赛网络安全软件赛</p>
+    <p class="glory-result">一等奖。</p>
+  </div>
+  <div class="glory-node">
+    <p class="glory-date">2025-05</p>
+    <p class="glory-title">2025 年（第 18 届）全国大学生软件创新大赛软件系统安全赛全国总决赛“攻防赛”</p>
+    <p class="glory-result">二等奖。</p>
   </div>
 </div>

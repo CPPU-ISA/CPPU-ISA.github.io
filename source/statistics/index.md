@@ -174,7 +174,7 @@ date: 2026-06-29 00:00:00
   <section class="member-section">
     <div class="member-section-header">
       <h2 class="member-section-title">23&#32423;</h2>
-      <span class="member-section-subtitle">Member roster updated</span>
+      <span class="member-section-subtitle">成员名单</span>
     </div>
     <div class="member-grid">
       <a href="https://jjkk999.github.io/" target="_blank" rel="noopener" class="member-card">
@@ -182,9 +182,9 @@ date: 2026-06-29 00:00:00
         <div class="member-info">
           <div class="member-name-row">
             <span class="member-name">jjkk</span>
-            <span class="member-tag">Rev</span>
+            <span class="member-tag">逆向</span>
           </div>
-          <p class="member-desc">Personal homepage linked. Avatar sourced from the site profile image.</p>
+          <p class="member-desc">个人主页已接入，头像使用其站点公开头像。</p>
         </div>
       </a>
 
@@ -193,9 +193,9 @@ date: 2026-06-29 00:00:00
         <div class="member-info">
           <div class="member-name-row">
             <span class="member-name">Sevedy / Sola</span>
-            <span class="member-tag">Blog</span>
+            <span class="member-tag">博客</span>
           </div>
-          <p class="member-desc">Cnblogs homepage linked. Avatar sourced from the blog profile image.</p>
+          <p class="member-desc">博客园主页已接入，头像使用博客公开头像。</p>
         </div>
       </a>
 
@@ -206,7 +206,7 @@ date: 2026-06-29 00:00:00
             <span class="member-name">nlqx</span>
             <span class="member-tag">Web</span>
           </div>
-          <p class="member-desc">Personal homepage linked. Current public site cover image is used as the card avatar.</p>
+          <p class="member-desc">个人主页已接入，头像暂用站点公开封面图。</p>
         </div>
       </a>
 
@@ -215,9 +215,9 @@ date: 2026-06-29 00:00:00
         <div class="member-info">
           <div class="member-name-row">
             <span class="member-name">saga131</span>
-            <span class="member-tag">Crypto</span>
+            <span class="member-tag">密码</span>
           </div>
-          <p class="member-desc">Personal homepage linked. Avatar sourced from the site sidebar profile image.</p>
+          <p class="member-desc">个人主页已接入，头像使用站点侧边栏头像。</p>
         </div>
       </a>
 
@@ -226,9 +226,9 @@ date: 2026-06-29 00:00:00
         <div class="member-info">
           <div class="member-name-row">
             <span class="member-name">Q-Sheep</span>
-            <span class="member-tag">Wechat</span>
+            <span class="member-tag">公众号</span>
           </div>
-          <p class="member-desc">Follow via the linked WeChat article. Avatar updated to the provided profile image.</p>
+          <p class="member-desc">可通过链接页关注公众号，头像使用提供的公开头像。</p>
         </div>
       </a>
 
@@ -239,7 +239,7 @@ date: 2026-06-29 00:00:00
             <span class="member-name">1ceLAND</span>
             <span class="member-tag">Web</span>
           </div>
-          <p class="member-desc">Cnblogs homepage linked. Avatar sourced from the blog theme profile image.</p>
+          <p class="member-desc">博客园主页已接入，头像使用博客主题公开头像。</p>
         </div>
       </a>
     </div>
@@ -248,7 +248,7 @@ date: 2026-06-29 00:00:00
   <section class="member-section">
     <div class="member-section-header">
       <h2 class="member-section-title">24&#32423;</h2>
-      <span class="member-section-subtitle">Current active member</span>
+      <span class="member-section-subtitle">当前成员</span>
     </div>
     <div class="member-grid">
       <a href="https://ljnljn2005.github.io/" target="_blank" rel="noopener" class="member-card">
@@ -256,9 +256,9 @@ date: 2026-06-29 00:00:00
         <div class="member-info">
           <div class="member-name-row">
             <span class="member-name">ljnljn</span>
-            <span class="member-tag">Misc</span>
+            <span class="member-tag">综合</span>
           </div>
-          <p class="member-desc">Personal homepage linked. Avatar updated to the external site profile image.</p>
+          <p class="member-desc">个人主页已接入，头像使用外部站点公开头像。</p>
         </div>
       </a>
     </div>
@@ -267,20 +267,20 @@ date: 2026-06-29 00:00:00
   <section class="member-section">
     <div class="member-section-header">
       <h2 class="member-section-title">25&#32423;</h2>
-      <span class="member-section-subtitle">Roster in progress</span>
+      <span class="member-section-subtitle">成员整理中</span>
     </div>
     <div class="member-grid">
-      <div class="member-empty">coming soon...</div>
+      <div class="member-empty">敬请期待...</div>
     </div>
   </section>
 
   <section class="member-section">
     <div class="member-section-header">
       <h2 class="member-section-title">26&#32423;</h2>
-      <span class="member-section-subtitle">Roster in progress</span>
+      <span class="member-section-subtitle">成员整理中</span>
     </div>
     <div class="member-grid">
-      <div class="member-empty">coming soon...</div>
+      <div class="member-empty">敬请期待...</div>
     </div>
   </section>
 </div>
