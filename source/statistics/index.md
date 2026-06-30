@@ -174,10 +174,74 @@ date: 2026-06-29 00:00:00
   <section class="member-section">
     <div class="member-section-header">
       <h2 class="member-section-title">23&#32423;</h2>
-      <span class="member-section-subtitle">Roster in progress</span>
+      <span class="member-section-subtitle">Member roster updated</span>
     </div>
     <div class="member-grid">
-      <div class="member-empty">coming soon...</div>
+      <a href="https://jjkk999.github.io/" target="_blank" rel="noopener" class="member-card">
+        <img src="https://jjkk999.github.io/img/jjkk.jpg" alt="jjkk avatar" class="member-avatar">
+        <div class="member-info">
+          <div class="member-name-row">
+            <span class="member-name">jjkk</span>
+            <span class="member-tag">Rev</span>
+          </div>
+          <p class="member-desc">Personal homepage linked. Avatar sourced from the site profile image.</p>
+        </div>
+      </a>
+
+      <a href="https://www.cnblogs.com/Sevedy" target="_blank" rel="noopener" class="member-card">
+        <img src="https://pic.cnblogs.com/avatar/3357373/20250104101041.png" alt="Sevedy avatar" class="member-avatar">
+        <div class="member-info">
+          <div class="member-name-row">
+            <span class="member-name">Sevedy / Sola</span>
+            <span class="member-tag">Blog</span>
+          </div>
+          <p class="member-desc">Cnblogs homepage linked. Avatar sourced from the blog profile image.</p>
+        </div>
+      </a>
+
+      <a href="https://nlqx.github.io/" target="_blank" rel="noopener" class="member-card">
+        <img src="https://nlqx.github.io/images/cover1.jpg" alt="nlqx avatar" class="member-avatar">
+        <div class="member-info">
+          <div class="member-name-row">
+            <span class="member-name">nlqx</span>
+            <span class="member-tag">Web</span>
+          </div>
+          <p class="member-desc">Personal homepage linked. Current public site cover image is used as the card avatar.</p>
+        </div>
+      </a>
+
+      <a href="https://saga131.github.io/" target="_blank" rel="noopener" class="member-card">
+        <img src="https://saga131.github.io/img/head.jpg" alt="saga131 avatar" class="member-avatar">
+        <div class="member-info">
+          <div class="member-name-row">
+            <span class="member-name">saga131</span>
+            <span class="member-tag">Crypto</span>
+          </div>
+          <p class="member-desc">Personal homepage linked. Avatar sourced from the site sidebar profile image.</p>
+        </div>
+      </a>
+
+      <a href="https://mp.weixin.qq.com/s/FxcgogjwyDJUNlI0NBsZ1g" target="_blank" rel="noopener" class="member-card">
+        <img src="https://pic.cnblogs.com/avatar/3376483/20240117222905.png" alt="Q-Sheep avatar" class="member-avatar">
+        <div class="member-info">
+          <div class="member-name-row">
+            <span class="member-name">Q-Sheep</span>
+            <span class="member-tag">Wechat</span>
+          </div>
+          <p class="member-desc">Follow via the linked WeChat article. Avatar updated to the provided profile image.</p>
+        </div>
+      </a>
+
+      <a href="https://www.cnblogs.com/1ceLAND" target="_blank" rel="noopener" class="member-card">
+        <img src="https://pic.cnblogs.com/avatar/3513656/20250528212217.png" alt="1ceLAND avatar" class="member-avatar">
+        <div class="member-info">
+          <div class="member-name-row">
+            <span class="member-name">1ceLAND</span>
+            <span class="member-tag">Web</span>
+          </div>
+          <p class="member-desc">Cnblogs homepage linked. Avatar sourced from the blog theme profile image.</p>
+        </div>
+      </a>
     </div>
   </section>
 
