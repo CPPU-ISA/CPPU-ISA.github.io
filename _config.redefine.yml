@@ -24,6 +24,9 @@ global:
     image: /images/logo.jpg
     description: CPPU-ISA, also known as CPPUISA, cppu-isa, and seeusec, is the official team website for members, glory, writeups, and cybersecurity projects.
 
+articles:
+  lazyload: false
+
 navbar:
   links:
     Home:
