@@ -94,7 +94,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cppu-isa.github.io/images/logo.jpg">
 <meta property="article:published_time" content="2026-06-29T14:10:00.000Z">
-<meta property="article:modified_time" content="2026-07-01T01:12:52.750Z">
+<meta property="article:modified_time" content="2026-07-01T06:18:51.807Z">
 <meta property="article:author" content="CPPU-ISA">
 <meta property="article:tag" content="CPPU">
 <meta property="article:tag" content="CPPU-ISA">
@@ -430,7 +430,15 @@
 		
 <style>
   .archive-list-container .article-list {
-    list-style: none;
+    list-style: none !important;
+  }
+
+  .archive-list-container .article-item {
+    list-style: none !important;
+  }
+
+  .archive-list-container .article-item::marker {
+    content: "" !important;
   }
 
   .archive-list-container .article-item span.article-title::after {
