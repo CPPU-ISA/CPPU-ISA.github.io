@@ -25,6 +25,8 @@ home_banner:
         url: https://github.com/CPPU-ISA
       - icon: fa-solid fa-envelope
         url: mailto:cppu_isa@163.com
+      - icon: fa-brands fa-weixin
+        url: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzMjE4NzU5MA==#wechat_redirect
       - icon: fa-solid fa-at
         url: ""
       - icon: fa-brands fa-telegram
