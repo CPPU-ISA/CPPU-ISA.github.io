@@ -15,4 +15,14 @@
 #       - 复现
 #     summary: 一两句话说明这篇文章讲了什么。
 
-external: []
+external:
+  - title: CCF 网络安全运维赛道 实操WP
+    url: https://mp.weixin.qq.com/s/3B4zlI1gL5UNAtdwqkUJAA
+    date: 2026-06-16 10:28:00
+    author: ljnljn
+    platform: 微信公众号
+    category: Misc
+    tags:
+      - Misc
+      - 外链
+    summary: ljnljn 发布于微信公众号的 CCF 网络安全运维赛道实操题解外链。

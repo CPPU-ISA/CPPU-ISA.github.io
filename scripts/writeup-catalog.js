@@ -1,5 +1,9 @@
 'use strict';
 
+const fs = require('fs');
+const path = require('path');
+const yaml = require('js-yaml');
+
 function escapeHtml(value) {
   return String(value || '')
     .replace(/&/g, '&amp;')
@@ -17,11 +21,12 @@ function normalizeList(value) {
 function formatDate(value) {
   if (!value) return '';
   try {
-    return hexo.extend.helper.get('date').call(
-      { config: hexo.config },
-      value,
-      'YYYY.MM.DD'
-    );
+    const date = value instanceof Date ? value : new Date(value);
+    if (Number.isNaN(date.getTime())) return String(value);
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}.${month}.${day}`;
   } catch (_error) {
     return String(value);
   }
@@ -38,6 +43,18 @@ function renderBadges(items, extraClass) {
         .join('')}
     </div>
   `;
+}
+
+function getExternalWriteups() {
+  try {
+    const dataPath = path.join(hexo.base_dir, '_data', 'writeups.yml');
+    if (!fs.existsSync(dataPath)) return [];
+    const raw = fs.readFileSync(dataPath, 'utf8');
+    const parsed = yaml.load(raw) || {};
+    return normalizeList(parsed.external);
+  } catch (_error) {
+    return [];
+  }
 }
 
 function getWriteupPosts(ctx) {
@@ -70,7 +87,8 @@ function stripHtml(html) {
 }
 
 function renderPostCard(post, isExternal) {
-  const metaItems = [post.date, post.event, post.author, post.platform].filter(Boolean);
+  const displayDate = post.date ? formatDate(post.date) : '';
+  const metaItems = [displayDate, post.event, post.author, post.platform].filter(Boolean);
   const summary = stripHtml(post.summary).slice(0, 140);
 
   return `
@@ -89,8 +107,7 @@ function renderPostCard(post, isExternal) {
 
 hexo.extend.tag.register('writeup_catalog', function () {
   const internalPosts = getWriteupPosts(this);
-  const writeupData = hexo.locals.get('data').writeups || {};
-  const externalPosts = normalizeList(writeupData.external);
+  const externalPosts = getExternalWriteups();
 
   return `
     <style>
