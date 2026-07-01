@@ -41,9 +41,6 @@ navbar:
     News:
       path: /news/
       icon: fa-regular fa-newspaper
-    Writeup:
-      path: /writeup/
-      icon: fa-regular fa-file-lines
     GitHub:
       path: https://github.com/CPPU-ISA
       icon: fa-brands fa-github
