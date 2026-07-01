@@ -5,7 +5,15 @@ date: 2026-06-29 00:30:00
 
 <style>
   .archive-list-container .article-list {
-    list-style: none;
+    list-style: none !important;
+  }
+
+  .archive-list-container .article-item {
+    list-style: none !important;
+  }
+
+  .archive-list-container .article-item::marker {
+    content: "" !important;
   }
 
   .archive-list-container .article-item span.article-title::after {
