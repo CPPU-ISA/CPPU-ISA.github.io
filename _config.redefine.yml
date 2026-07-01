@@ -17,6 +17,20 @@ home_banner:
       - Search us as CPPUISA
       - Search us as cppu-isa
       - Search us as seeusec
+  social_links:
+    enable: true
+    style: default
+    links:
+      - icon: fa-brands fa-github
+        url: https://github.com/CPPU-ISA
+      - icon: fa-solid fa-envelope
+        url: mailto:cppu_isa@163.com
+      - icon: fa-solid fa-at
+        url: ""
+      - icon: fa-brands fa-telegram
+        url: ""
+      - icon: /images/custom-icon.svg
+        url: ""
 
 global:
   open_graph:
@@ -41,9 +55,6 @@ navbar:
     News:
       path: /news/
       icon: fa-regular fa-newspaper
-    GitHub:
-      path: https://github.com/CPPU-ISA
-      icon: fa-brands fa-github
 
 comment:
   enable: false
